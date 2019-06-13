@@ -42,7 +42,7 @@
 				{ routers && routers.map((item, index) => {
 					let { path , menu , component } = item;
 					return(
-						<div key = { path } style = {{ cursor : 'pointer' }} onClick = {() => dispatchRouter({ path , query : { id : 1 , name : 2 } })}><a>{ menu }</a></div>
+						<div key = { path } style = {{ cursor : 'pointer' }} onClick = {() => dispatchRouter({ path , query : { path , index } })}><a>{ menu }</a></div>
 					)
 				}) }
 			</div>
