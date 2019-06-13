@@ -1,0 +1,38 @@
+{
+  "name": "react-hash-router",
+  "version": "1.0.0",
+  "description": "基于react的hash路由",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "set NODE_ENV=production&& rollup -c",
+    "build:dev": "set NODE_ENV=development && rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ZhaoJianXXXXX:Zj19921215@github.com/hoc2019/react-hash-router.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoc2019/react-hash-router/issues"
+  },
+  "homepage": "https://github.com/hoc2019/react-hash-router#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "less": "^3.9.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "rollup": "^1.10.1",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-less": "^1.1.2",
+    "rollup-plugin-less-loader": "^0.2.1",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-uglify": "^6.0.2"
+  }
+}
